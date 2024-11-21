@@ -1,0 +1,440 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body & General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #F2F2F2;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    padding: 20px 0;
+    color: #404C8A; /* You can choose a different color for text */
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-left: 8px; /* Add some space from the left edge */
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 8px;
+    margin-left: 8px;
+   font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Navigation Menu - Positioned to the top-right */
+nav {
+    position: fixed; /* Fix the navigation at the top */
+    top: 0;
+    right: 0;
+    background-color: #404C8A;
+    padding: 10px 20px;
+    z-index: 1000;
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin: 0 15px;
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 5px 10px;
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+nav ul li a:hover {
+    background-color: #CDD7F9;
+    border-radius: 3px;
+}
+
+/* Dropdown Menu */
+nav ul li.dropdown {
+    cursor: pointer;
+}
+
+nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #404C8A;
+    min-width: 160px;
+    z-index: 1;
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;
+}
+
+nav ul li .dropdown-content li a {
+    padding: 10px;
+    display: block;
+}
+
+nav ul li .dropdown-content li a:hover {
+    background-color: #CDD7F9;
+}
+
+/* Section Styles */
+section {
+    margin: 40px 0;
+}
+
+h2 {
+    color: #404C8A;
+    font-size: 2em;
+    margin-bottom: 20px;
+   font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+ul li, ol li {
+    margin: 5px 0;
+}
+
+a {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: 40px;
+}
+/* Adopted Animals Section */
+.adopted-gallery {
+    display: flex; /* Makes items align horizontally */
+    gap: 20px; /* Adds spacing between items */
+    justify-content: flex-start; /* Aligns items to the left */
+    flex-wrap: wrap; /* Allows items to wrap if needed (for small screens) */
+    margin-top: 20px;
+    padding-left: 20px; /* Optional: Adds space from the edge of the screen */
+}
+
+.adopted-item {
+    text-align: center; /* Centers text under the image */
+    width: 200px; /* Sets a fixed width for consistency */
+}
+
+.adopted-item img {
+    width: 200px; /* Ensure images are the same size */
+    height: 200px;
+    object-fit: cover; /* Maintains aspect ratio without distortion */
+    border: 1px solid #ddd; /* Optional border for styling */
+    border-radius: 5px; /* Optional rounded corners */
+}
+
+.adopted-item p {
+    margin-top: 10px; /* Adds space between image and name */
+    font-size: 1em;
+    color: #333;
+  font-family: "Yatra One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+#logo {
+    display: flex;
+    justify-content: center; /* Centers the logo horizontally */
+    margin-bottom: 20px; /* Adds space between the logo and the next section */
+}
+
+#logo img {
+    width: 1000px; /* Set logo width */
+    height: 400px; /* Set logo height */
+    object-fit: contain; /* Ensures the image scales without distortion */
+    border: 2px solid #ddd; /* Optional border for style */
+    border-radius: 10px; /* Rounded corners for a polished look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+  text-align: center; 
+}
+#cats {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+#cats h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#cats p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cat-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 boxes per row */
+    gap: 20px; /* Space between boxes */
+    justify-content: center;
+    align-items: center;
+}
+
+.cat-box {
+    background-color: #ffffff;
+    border-radius: 15px; /* Rounded corners */
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    text-align: center;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.cat-box:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.cat-box img {
+    width: 100px; /* Small picture size */
+    height: 100px;
+    object-fit: cover; /* Ensure image fits nicely */
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 10px;
+}
+
+.cat-box h3 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+
+.cat-box p {
+    font-size: 0.9em;
+    color: #666;
+}
+#dogs {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+#dogs h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#dogs p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.dog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 boxes per row */
+    gap: 20px; /* Space between boxes */
+    justify-content: center;
+    align-items: center;
+}
+
+.dog-box {
+    background-color: #ffffff;
+    border-radius: 15px; /* Rounded corners */
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    text-align: center;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.dog-box:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.dog-box img {
+    width: 100px; /* Small picture size */
+    height: 100px;
+    object-fit: cover; /* Ensure image fits nicely */
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 10px;
+}
+
+.dog-box h3 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+
+.dog-box p {
+    font-size: 0.9em;
+    color: #666;
+}
+#other {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+#other h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#other p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.other-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 boxes per row */
+    gap: 20px; /* Space between boxes */
+    justify-content: center;
+    align-items: center;
+}
+
+.other-box {
+    background-color: #ffffff;
+    border-radius: 15px; /* Rounded corners */
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    text-align: center;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.other-box:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.other-box img {
+    width: 100px; /* Small picture size */
+    height: 100px;
+    object-fit: cover; /* Ensure image fits nicely */
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 10px;
+}
+
+.other-box h3 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+
+.other-box p {
+    font-size: 0.9em;
+    color: #666;
+}
+#contact {
+    margin: 20px;
+    font-family: "Ubuntu Mono", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+}
+
+.contacttext {
+    font-family: "Ubuntu Mono", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.contactlinks{
+   font-family: "Ubuntu Mono", serif;
+    font-weight: 300;
+    font-style: normal;
+  color: #404C8A;
+  
+}
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures the borders collapse into one line */
+}
+
+#contact,
+#contacttext {
+    padding: 8px;
+}
+
+table tr {
+    border-bottom: 1px solid #ccc; /* Line under each row */
+}
+
+.contact-info a {
+    color: #404C8A; /* Link color */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Optional: underline on hover */
+}
+
+#hours {
+    text-align: left;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.hours-table {
+    width: 50%;
+    border-collapse: collapse;
+    border: 2px solid #333; /* Dark border around the whole table */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+}
+
+.hours-table td {
+    padding: 12px 20px;
+    border: 1px solid #333; /* Border between cells */
+    text-align: center;
+}
+
+.hours-table td:first-child {
+    text-align: left; /* Align the day name to the left */
+}
+
+.hours-table td strong {
+    font-weight: bold;
+  font-family: "Ubuntu Mono", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.hours-table tr:nth-child(even) {
+    background-color: #f4f4f4; /* Alternate row color */
+}
+
+/* Remove hover effect */
+.hours-table tr:hover {
+    background-color: transparent;
+}
+.tableinfo{
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
