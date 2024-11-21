@@ -261,11 +261,20 @@ footer {
 #dogs h2 {
     font-size: 2em;
     margin-bottom: 10px;
+      font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 #dogs p {
     font-size: 1.2em;
     margin-bottom: 20px;
+     color: #404C8A;
+      font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .dog-grid {
@@ -300,19 +309,10 @@ footer {
 .dog-box h3 {
     font-size: 1.2em;
     margin: 10px 0 5px;
-     font-family: "Lexend Deca", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
 }
 
 .dog-box p {
     font-size: 0.9em;
-     color: #404C8A;
-      font-family: "Lexend Deca", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
 }
 #other {
     text-align: center;
