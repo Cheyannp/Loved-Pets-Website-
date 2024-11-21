@@ -237,8 +237,9 @@ footer {
 .cat-box h3 {
     font-size: 1.2em;
     margin: 10px 0 5px;
-    font-family: "Yatra One", system-ui;
-  font-weight: 400;
+   font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -250,6 +251,7 @@ footer {
   font-weight: 500;
   font-style: normal;
 }
+
 #dogs {
     text-align: center;
     padding: 20px;
