@@ -300,11 +300,19 @@ footer {
 .dog-box h3 {
     font-size: 1.2em;
     margin: 10px 0 5px;
+     font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .dog-box p {
     font-size: 0.9em;
-    color: #666;
+     color: #404C8A;
+      font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 #other {
     text-align: center;
