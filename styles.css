@@ -507,7 +507,7 @@ table tr {
 
 .other-members ul li {
     margin-bottom: 0.5rem;
-    font-size: 1rem;
+    font-size: .7em;
    font-family: "Lexend Deca", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -520,7 +520,7 @@ table tr {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-size:1.7em;
+  font-size:1.4em;
 }
 .team-container {
     display: flex;
