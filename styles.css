@@ -203,6 +203,11 @@ footer {
 #cats p {
     font-size: .8em;
     margin-bottom: 20px;
+        color: #404C8A;
+      font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .cat-grid {
