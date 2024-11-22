@@ -328,11 +328,20 @@ footer {
 #other h2 {
     font-size: 2em;
     margin-bottom: 10px;
+     font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 #other p {
     font-size: 1.2em;
     margin-bottom: 20px;
+      color: #404C8A;
+      font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .other-grid {
@@ -365,13 +374,12 @@ footer {
 }
 
 .other-box h3 {
-    font-size: 1.2em;
+       font-size: 1.2em;
     margin: 10px 0 5px;
 }
 
 .other-box p {
     font-size: 0.9em;
-    color: #666;
 }
 #contact {
     margin: 20px;
