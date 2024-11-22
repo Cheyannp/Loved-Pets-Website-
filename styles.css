@@ -468,3 +468,71 @@ table tr {
   font-weight: 500;
   font-style: normal;
 }
+.team-gallery {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Makes the images circular */
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+}
+
+.team-member p {
+    margin: 0.2rem 0;
+}
+.teamtitle{
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #404C8A;
+}
+.teamname{
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+/* Other members styling */
+.other-members ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.other-members ul li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+   font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+#otherteamtitle{
+    color: #404C8A;
+    margin-bottom: 20px;
+   font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size:1.7em;
+}
+.team-container {
+    display: flex;
+    align-items: flex-start; /* Align both items at the top */
+    gap: 510px; /* Space between image and list */
+}
+
+/* Style for the image */
+.team-image img {
+    width:800px;
+    height: auto;
+    border-radius: 10px;
+    heigth:550px;
+    
+}
