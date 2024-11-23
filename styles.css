@@ -566,7 +566,7 @@ table tr {
 #missonstatment{
      color: #333;
     font-size: 0.9em;
-    text-align: center;
+    text-align:left;
     font-family: "Lexend Deca", sans-serif;
 }
 .volunteer-section {
