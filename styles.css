@@ -532,10 +532,11 @@ table tr {
 
 /* Image centering inside the impact section */
 #Impactimage {
-    margin: 10px auto; /* Centers the image horizontally */
+     margin: 10px auto; /* Centers horizontally */
     height: 300px;
     width: 400px;
-    display: block; /* Makes the image behave like a block element */
+    display: block; /* Ensures it's treated as a block element */
+    object-fit: cover; /* Optionally, makes sure the image fits well within the box */
 }
 
 /* Staff photo styling */
