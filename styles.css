@@ -569,3 +569,47 @@ table tr {
     text-align: center;
     font-family: "Lexend Deca", sans-serif;
 }
+.volunteer-section {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#volunteer-title {
+  color: #404C8A;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.volunteer-section p {
+  font-size: 1em;
+  color: #555;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ol li {
+  margin-bottom: 15px;
+  font-size: 1em;
+  color: #333;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.volunteer-contact {
+  font-size: 1.4em;
+  color: #404C8A;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.volunteer-contact a {
+  color: #404C8A;
+  text-decoration: none;
+}
