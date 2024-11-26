@@ -613,3 +613,30 @@ ol li {
   color: #404C8A;
   text-decoration: none;
 }
+#mission-statement {
+     font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+
+.mission-images {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+.mission-images img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
