@@ -719,10 +719,10 @@ ol li {
 }
 
 .classes-title p {
-    font-size: 1.2em;
-    color: #555;
+    font-size: 1em;
+    color: #0a0a0a;
     margin-bottom: 40px; 
-    font-family: "Lexend Deca", sans-serif; /* Font added here */
+    font-family: "Lexend Deca", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
